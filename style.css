@@ -13,7 +13,7 @@ html, body, .view {
 
 .gray-bg {
   background-color: whitesmoke;
-  background-size: cover;
+  height: 100%;
 }
 
 .spacer {
