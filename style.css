@@ -26,8 +26,21 @@ html, body, .view {
   transform: translateY(13%);
 }
 
+.xs-spacer {
+  transform: translateY(6%);
+}
+
 .sm-text-spacer {
   margin-top: 1.5%;
+}
+
+.img-spacer-right {
+  transform: translateX(20%);
+}
+
+.img-resize{
+  height: 21.7%;
+  width: 21.7%;
 }
 
 @media screen and (max-width: 1024px) {
