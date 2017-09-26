@@ -11,9 +11,25 @@ html, body, .view {
   height: 80%;
 }
 
+.copyright-padding{
+  padding-top: 8rem;
+}
+
+.top-padding{
+    padding-top: 10px;
+}
+
 .gray-bg {
   background-color: whitesmoke;
-  height: 95%;
+  height: 90%;
+}
+
+.button-padding{
+    margin-bottom: 5.5rem;
+}
+
+.form-spacer{
+  transform: translateY(10%);
 }
 
 .spacer {
@@ -22,12 +38,20 @@ html, body, .view {
   transform: translateY(450%);
 }
 
+.md-spacer {
+  transform: translateY(35%);
+}
+
 .sm-spacer {
   transform: translateY(13%);
 }
 
 .xs-spacer {
-  transform: translateY(6%);
+  transform: translateY(7%);
+}
+
+.md-text-spacer {
+  transform: translateY(85%);
 }
 
 .sm-text-spacer {
