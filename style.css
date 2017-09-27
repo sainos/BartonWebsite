@@ -2,6 +2,10 @@ html, body, .view {
   height: 100%;
 }
 
+.xs-spacer{
+  padding-top: 25px;
+}
+
 .view {
   background: url('img-bg.jpg')no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -11,43 +15,50 @@ html, body, .view {
   height: 80%;
 }
 
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 .copyright-padding{
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 
 .top-padding{
     padding-top: 10px;
 }
 
-.gray-bg {
+.gray-bg-top{
   background-color: whitesmoke;
-  height: 90%;
+  height: 85%;
+}
+
+.gray-bg-bottom{
+  background-color: whitesmoke;
+  height: 100%;
 }
 
 .button-padding{
-    margin-bottom: 5.5rem;
-}
-
-.form-spacer{
-  transform: translateY(10%);
+    margin-bottom: 2rem;
 }
 
 .spacer {
   position: relative;
   top: 50%;
   transform: translateY(450%);
-}
-
-.md-spacer {
-  transform: translateY(35%);
-}
-
-.sm-spacer {
-  transform: translateY(13%);
-}
-
-.xs-spacer {
-  transform: translateY(7%);
 }
 
 .md-text-spacer {
@@ -63,8 +74,8 @@ html, body, .view {
 }
 
 .img-resize{
-  height: 21.7%;
-  width: 21.7%;
+  height: 294px;
+  width: 254px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -74,13 +85,24 @@ html, body, .view {
     transform: translateY(200%);
   }
 
-  .sm-spacer {
-    transform: translateY(13%);
-  }
-
   .sm-text-spacer {
     margin-top: 1.5%;
   }
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 160%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 160%;
+  }
+
+  .copyright-padding{
+    padding-top: 4rem;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -92,6 +114,16 @@ html, body, .view {
   }
   div.spacer {
     transform: translateY(310%);
+  }
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 168%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 135%;
   }
 }
 
@@ -106,6 +138,22 @@ html, body, .view {
   div.spacer {
     transform: translateY(310%);
   }
+
+  .img-resize{
+    height: 220.5px;
+    width: 190.5px;
+  }
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 163%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 107%;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -130,4 +178,20 @@ html, body, .view {
   .sm-spacer {
     transform: translateY(5%);
   }
+
+  .img-resize{
+    height: 147px;
+    width: 127px;
+  }
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 195%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 95%;
+  }
+
 }
