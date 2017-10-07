@@ -132,6 +132,33 @@ html, body, .view {
 
 }
 
+@media screen and (max-width: 1300px) {
+  .spacer {
+    position: relative;
+    top: 50%;
+    transform: translateY(390%);
+  }
+
+  .sm-text-spacer {
+    margin-top: 1.5%;
+  }
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 90%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 105%;
+  }
+
+  .copyright-padding{
+    padding-top: 4rem;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   .spacer {
     position: relative;
