@@ -58,7 +58,7 @@ html, body, .view {
 .spacer {
   position: relative;
   top: 50%;
-  transform: translateY(450%);
+  transform: translateY(180%);
 }
 
 .md-text-spacer {
@@ -69,8 +69,14 @@ html, body, .view {
   margin-top: 1.5%;
 }
 
+
 .img-spacer-right {
   transform: translateX(20%);
+}
+
+.logo-resize {
+    height: 180px;
+    width: 450px;
 }
 
 .img-resize{
@@ -82,7 +88,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(210%);
+    transform: translateY(90%);
   }
 
   .sm-text-spacer {
@@ -91,12 +97,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 155%;
+    height: 145%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 175%;
+    height: 165%;
   }
 
   .copyright-padding{
@@ -109,7 +115,12 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(210%);
+    transform: translateY(150%);
+  }
+
+  h3{
+    font-size: 1.5rem;
+
   }
 
   .sm-text-spacer {
@@ -118,7 +129,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 160%;
+    height: 145%;
   }
 
   .gray-bg-bottom{
@@ -130,13 +141,18 @@ html, body, .view {
     padding-top: 4rem;
   }
 
+  .logo-resize {
+      height: 120px;
+      width: 300px;
+  }
+
 }
 
 @media screen and (max-width: 1300px) {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(390%);
+    transform: translateY(150%);
   }
 
   .sm-text-spacer {
@@ -145,12 +161,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 90%;
+    height: 140%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 105%;
+    height: 165%;
   }
 
   .copyright-padding{
@@ -163,7 +179,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(200%);
+    transform: translateY(160%);
   }
 
   .sm-text-spacer {
@@ -172,7 +188,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 160%;
+    height: 150%;
   }
 
   .gray-bg-bottom{
@@ -194,12 +210,12 @@ html, body, .view {
     transform: translateY(10%);
   }
   div.spacer {
-    transform: translateY(310%);
+    transform: translateY(160%);
   }
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 168%;
+    height: 150%;
   }
 
   .gray-bg-bottom{
@@ -212,12 +228,18 @@ html, body, .view {
   h1.display-4 {
     font-size: 1.6rem;
   }
+
+  h3 {
+    font-size: 1.2rem;
+
+  }
+
   .sm-spacer {
     transform: translateY(8%);
   }
 
   div.spacer {
-    transform: translateY(310%);
+    transform: translateY(210%);
   }
 
   .img-resize{
@@ -227,7 +249,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 163%;
+    height: 150%;
   }
 
   .gray-bg-bottom{
@@ -235,6 +257,10 @@ html, body, .view {
     height: 107%;
   }
 
+  .logo-resize {
+      height: 90px;
+      width: 225px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -246,7 +272,7 @@ html, body, .view {
   }
 
   div.spacer {
-    transform: translateY(200%);
+    transform: translateY(230%);
   }
 
   .img-resize{
@@ -256,12 +282,17 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 180%;
+    height: 165%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
     height: 100%;
+  }
+
+  .logo-resize {
+      height: 90px;
+      width: 225px;
   }
 
 }
@@ -271,11 +302,11 @@ html, body, .view {
     font-size: 1.6rem;
   }
   h3{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 
   }
   div.spacer {
-    transform: translateY(300%);
+    transform: translateY(250%);
   }
 
   div.view {
@@ -296,7 +327,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 195%;
+    height: 175%;
   }
 
   .gray-bg-bottom{
