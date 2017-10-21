@@ -115,7 +115,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(150%);
+    transform: translateY(250%);
   }
 
   h3{
@@ -129,12 +129,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 160%;
+    height: 92%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 175%;
+    height: 105%;
   }
 
   .copyright-padding{
@@ -179,7 +179,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(160%);
+    transform: translateY(250%);
   }
 
   .sm-text-spacer {
@@ -188,12 +188,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 165%;
+    height: 92%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 160%;
+    height: 100%;
   }
 
   .copyright-padding{
@@ -210,17 +210,17 @@ html, body, .view {
     transform: translateY(10%);
   }
   div.spacer {
-    transform: translateY(160%);
+    transform: translateY(260%);
   }
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 170%;
+    height: 100%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 135%;
+    height: 80%;
   }
 }
 
@@ -239,7 +239,7 @@ html, body, .view {
   }
 
   div.spacer {
-    transform: translateY(210%);
+    transform: translateY(380%);
   }
 
   .img-resize{
@@ -249,12 +249,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 162%;
+    height: 92%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 107%;
+    height: 70%;
   }
 
   .logo-resize {
@@ -272,7 +272,7 @@ html, body, .view {
   }
 
   div.spacer {
-    transform: translateY(230%);
+    transform: translateY(400%);
   }
 
   .img-resize{
@@ -282,12 +282,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 183%;
+    height: 105%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 100%;
+    height: 60%;
   }
 
   .logo-resize {
@@ -306,7 +306,7 @@ html, body, .view {
 
   }
   div.spacer {
-    transform: translateY(250%);
+    transform: translateY(410%);
   }
 
   div.view {
@@ -327,12 +327,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 195%;
+    height: 112%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 95%;
+    height: 60%;
   }
 
 }
