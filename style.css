@@ -152,7 +152,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(150%);
+    transform: translateY(240%);
   }
 
   .sm-text-spacer {
@@ -161,12 +161,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 160%;
+    height: 92%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 175%;
+    height: 105%;
   }
 
   .copyright-padding{
