@@ -84,7 +84,7 @@ html, body, .view {
   width: 254px;
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1600px) {
+@media screen and (min-width: 1441px) and (max-width: 1500px) {
   .spacer {
     position: relative;
     top: 50%;
@@ -97,12 +97,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 92%;
+    height: 105%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 105%;
+    height: 120%;
   }
 
   .copyright-padding{
@@ -129,12 +129,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 92%;
+    height: 105%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 105%;
+    height: 120%;
   }
 
   .copyright-padding{
@@ -148,7 +148,7 @@ html, body, .view {
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1300px) {
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
   .spacer {
     position: relative;
     top: 50%;
@@ -161,16 +161,53 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 92%;
+    height: 105%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 105%;
+    height: 120%;
   }
 
   .copyright-padding{
     padding-top: 4rem;
+  }
+
+  .logo-resize {
+      height: 120px;
+      width: 300px;
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .spacer {
+    position: relative;
+    top: 50%;
+    transform: translateY(240%);
+  }
+
+  .sm-text-spacer {
+    margin-top: 1.5%;
+  }
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 105%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 120%;
+  }
+
+  .copyright-padding{
+    padding-top: 4rem;
+  }
+
+  .logo-resize {
+      height: 120px;
+      width: 300px;
   }
 
 }
@@ -188,16 +225,21 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 92%;
+    height: 110%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 100%;
+    height: 110%;
   }
 
   .copyright-padding{
     padding-top: 4rem;
+  }
+
+  .logo-resize {
+      height: 120px;
+      width: 300px;
   }
 
 }
@@ -215,12 +257,49 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 100%;
+    height: 110%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 90%;
+  }
+
+  .logo-resize {
+      height: 120px;
+      width: 300px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1.display-4 {
+    font-size: 2.2rem;
+  }
+  .sm-spacer {
+    transform: translateY(10%);
+  }
+  div.spacer {
+    transform: translateY(260%);
+  }
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 115%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
     height: 80%;
+  }
+
+  .logo-resize {
+      height: 120px;
+      width: 300px;
+  }
+
+  .img-resize{
+    height: 264px;
+    width: 225px;
   }
 }
 
@@ -243,18 +322,19 @@ html, body, .view {
   }
 
   .img-resize{
-    height: 220.5px;
-    width: 190.5px;
+    height: 200px;
+    width: 165.5px;
+    margin-bottom: 30px;
   }
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 92%;
+    height: 110%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 70%;
+    height: 75%;
   }
 
   .logo-resize {
@@ -276,18 +356,19 @@ html, body, .view {
   }
 
   .img-resize{
-    height: 176.4px;
-    width: 152.4px;
+    height: 156.4px;
+    width: 132.4px;
+    margin-bottom: 10px;
   }
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 105%;
+    height: 125%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 60%;
+    height: 65%;
   }
 
   .logo-resize {
@@ -327,12 +408,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 112%;
+    height: 130%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 60%;
+    height: 65%;
   }
 
 }
