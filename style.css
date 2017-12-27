@@ -43,7 +43,7 @@ html, body, .view {
 
 .gray-bg-top{
   background-color: whitesmoke;
-  height: 80%;
+  height: 75%;
 }
 
 .gray-bg-bottom{
@@ -80,34 +80,7 @@ html, body, .view {
   width: 254px;
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1500px) {
-  .spacer {
-    position: relative;
-    top: 50%;
-    margin-top: 27%;
-  }
-
-  .sm-text-spacer {
-    margin-top: 1.5%;
-  }
-
-  .gray-bg-top {
-    background-color: whitesmoke;
-    height: 100%;
-  }
-
-  .gray-bg-bottom{
-    background-color: whitesmoke;
-    height: 120%;
-  }
-
-  .copyright-padding{
-    padding-top: 4rem;
-  }
-
-}
-
-@media screen and (min-width: 1301px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .spacer {
     position: relative;
     top: 50%;
@@ -125,7 +98,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 100%;
+    height: 90%;
   }
 
   .gray-bg-bottom{
@@ -144,14 +117,45 @@ html, body, .view {
 
 }
 
-@media screen and (max-width: 1254px) {
-  .xs-spacer{
-    margin-top: 13%;
+@media screen and (max-width: 1366px) {
+  .spacer {
+    position: relative;
+    top: 50%;
+    margin-top: 27%;
   }
+
+  h3{
+    font-size: 1.5rem;
+
+  }
+
+  .sm-text-spacer {
+    margin-top: 1.5%;
+  }
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 110%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 120%;
+  }
+
+  .copyright-padding{
+    padding-top: 4rem;
+  }
+
+  .logo-resize {
+      height: 120px;
+      width: 300px;
+  }
+
 }
 
 
-@media screen and (min-width: 1201px) and (max-width: 1300px) {
+@media screen and (max-width: 1280px) {
   .spacer {
     position: relative;
     top: 50%;
@@ -165,7 +169,7 @@ html, body, .view {
   .gray-bg-top {
     background-color: whitesmoke;
     height: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 
   .gray-bg-bottom{
@@ -202,7 +206,6 @@ html, body, .view {
   .gray-bg-top {
     background-color: whitesmoke;
     height: 100%;
-    margin-bottom: 50px;
   }
 
   .gray-bg-bottom{
@@ -225,7 +228,19 @@ html, body, .view {
 
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+@media screen and (max-height: 600px) {
+
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 115%;
+    margin-bottom: 16%;
+  }
+
+
+}
+
+@media screen and (max-width: 1024px) {
   .spacer {
     position: relative;
     top: 50%;
@@ -239,12 +254,11 @@ html, body, .view {
   .gray-bg-top {
     background-color: whitesmoke;
     height: 105%;
-    margin-bottom: 40px;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 110%;
+    height: 100%;
   }
 
   .copyright-padding{
@@ -258,6 +272,11 @@ html, body, .view {
 
   .xs-spacer{
     margin-top: 0px;
+  }
+
+  .img-resize{
+    height: 264px;
+    width: 225px;
   }
 
 }
