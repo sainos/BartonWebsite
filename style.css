@@ -476,7 +476,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 205%;
+    height: 160%;
   }
 
   .gray-bg-bottom{
@@ -485,7 +485,7 @@ html, body, .view {
   }
 
   .spacer {
-    margin-top: 60%;
+    margin-top: 75%;
   }
 
   .xs-spacer{
