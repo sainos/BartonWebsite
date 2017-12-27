@@ -419,17 +419,17 @@ html, body, .view {
   .img-resize{
     height: 156.4px;
     width: 132.4px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 135%;
+    height: 140%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 65%;
+    height: 70%;
   }
 
   .logo-resize {
