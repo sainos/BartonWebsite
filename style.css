@@ -44,7 +44,6 @@ html, body, .view {
 .gray-bg-top{
   background-color: whitesmoke;
   height: 80%;
-  margin-bottom: 30px;
 }
 
 .gray-bg-bottom{
@@ -95,7 +94,6 @@ html, body, .view {
   .gray-bg-top {
     background-color: whitesmoke;
     height: 100%;
-    margin-bottom: 40px;
   }
 
   .gray-bg-bottom{
@@ -128,7 +126,6 @@ html, body, .view {
   .gray-bg-top {
     background-color: whitesmoke;
     height: 100%;
-    margin-bottom: 50px;
   }
 
   .gray-bg-bottom{
