@@ -43,7 +43,8 @@ html, body, .view {
 
 .gray-bg-top{
   background-color: whitesmoke;
-  height: 85%;
+  height: 80%;
+  margin-bottom: 30px;
 }
 
 .gray-bg-bottom{
@@ -58,11 +59,7 @@ html, body, .view {
 .spacer {
   position: relative;
   top: 50%;
-  transform: translateY(180%);
-}
-
-.md-text-spacer {
-  transform: translateY(85%);
+  margin-top: 30%;
 }
 
 .sm-text-spacer {
@@ -88,7 +85,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(170%);
+    margin-top: 27%;
   }
 
   .sm-text-spacer {
@@ -97,7 +94,8 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 105%;
+    height: 100%;
+    margin-bottom: 40px;
   }
 
   .gray-bg-bottom{
@@ -115,7 +113,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(250%);
+    margin-top: 27%;
   }
 
   h3{
@@ -129,7 +127,8 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 105%;
+    height: 100%;
+    margin-bottom: 50px;
   }
 
   .gray-bg-bottom{
@@ -152,7 +151,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(240%);
+    margin-top: 27%;
   }
 
   .sm-text-spacer {
@@ -161,7 +160,8 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 105%;
+    height: 100%;
+    margin-bottom: 50px;
   }
 
   .gray-bg-bottom{
@@ -184,7 +184,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(240%);
+    margin-top: 30%;
   }
 
   .sm-text-spacer {
@@ -193,7 +193,8 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 105%;
+    height: 100%;
+    margin-bottom: 50px;
   }
 
   .gray-bg-bottom{
@@ -216,7 +217,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    transform: translateY(250%);
+    margin-top: 30%;
   }
 
   .sm-text-spacer {
@@ -225,7 +226,8 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 110%;
+    height: 105%;
+    margin-bottom: 40px;
   }
 
   .gray-bg-bottom{
@@ -269,6 +271,10 @@ html, body, .view {
       height: 120px;
       width: 300px;
   }
+
+  .spacer {
+    margin-top: 55%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -300,6 +306,10 @@ html, body, .view {
   .img-resize{
     height: 264px;
     width: 225px;
+  }
+
+  .spacer {
+    margin-top: 60%;
   }
 }
 
@@ -341,6 +351,10 @@ html, body, .view {
       height: 90px;
       width: 225px;
   }
+
+  .spacer {
+    margin-top: 75%;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -374,6 +388,10 @@ html, body, .view {
   .logo-resize {
       height: 90px;
       width: 225px;
+  }
+
+  .spacer {
+    margin-top: 100%;
   }
 
 }
@@ -414,6 +432,10 @@ html, body, .view {
   .gray-bg-bottom{
     background-color: whitesmoke;
     height: 65%;
+  }
+
+  .spacer {
+    margin-top: 120%;
   }
 
 }
