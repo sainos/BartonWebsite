@@ -412,9 +412,6 @@ html, body, .view {
     transform: translateY(8%);
   }
 
-  div.spacer {
-    transform: translateY(400%);
-  }
 
   .img-resize{
     height: 156.4px;
@@ -424,12 +421,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 140%;
+    height: 170%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 70%;
+    height: 80%;
   }
 
   .logo-resize {
@@ -438,7 +435,7 @@ html, body, .view {
   }
 
   .spacer {
-    margin-top: 100%;
+    margin-top: 50%;
   }
 
   .xs-spacer{
