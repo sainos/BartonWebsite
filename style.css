@@ -417,6 +417,8 @@ html, body, .view {
     height: 156.4px;
     width: 132.4px;
     margin-bottom: 30px;
+    white-space:nowrap;
+
   }
 
   .gray-bg-top {
