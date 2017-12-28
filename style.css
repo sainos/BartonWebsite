@@ -43,7 +43,7 @@ html, body, .view {
 
 .gray-bg-top{
   background-color: whitesmoke;
-  height: 75%;
+  height: 90%;
 }
 
 .gray-bg-bottom{
@@ -98,7 +98,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 90%;
+    height: 93%;
   }
 
   .gray-bg-bottom{
@@ -135,7 +135,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 110%;
+    height: 105%;
   }
 
   .gray-bg-bottom{
@@ -159,7 +159,7 @@ html, body, .view {
   .spacer {
     position: relative;
     top: 50%;
-    margin-top: 27%;
+    margin-top: 20%;
   }
 
   .sm-text-spacer {
@@ -168,13 +168,13 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 100%;
+    height: 148%;
     margin-bottom: 10px;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 120%;
+    height: 160%;
   }
 
   .copyright-padding{
@@ -190,53 +190,11 @@ html, body, .view {
     margin-bottom: 10%;
   }
 
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-  .spacer {
-    position: relative;
-    top: 50%;
-    margin-top: 30%;
+  .img-resize{
+    margin-top: 30px;
+    height: 260px;
+    width: auto;
   }
-
-  .sm-text-spacer {
-    margin-top: 1.5%;
-  }
-
-  .gray-bg-top {
-    background-color: whitesmoke;
-    height: 100%;
-  }
-
-  .gray-bg-bottom{
-    background-color: whitesmoke;
-    height: 120%;
-  }
-
-  .copyright-padding{
-    padding-top: 4rem;
-  }
-
-  .logo-resize {
-      height: 120px;
-      width: 300px;
-  }
-
-  .xs-spacer{
-    margin-top: 0px;
-  }
-
-}
-
-
-@media screen and (max-height: 600px) {
-
-  .gray-bg-top {
-    background-color: whitesmoke;
-    height: 115%;
-    margin-bottom: 16%;
-  }
-
 
 }
 
@@ -253,12 +211,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 105%;
+    height: 140%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 100%;
+    height: 140%;
   }
 
   .copyright-padding{
@@ -288,18 +246,15 @@ html, body, .view {
   .sm-spacer {
     transform: translateY(10%);
   }
-  div.spacer {
-    transform: translateY(260%);
-  }
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 110%;
+    height: 145%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 90%;
+    height: 120%;
   }
 
   .logo-resize {
@@ -308,7 +263,7 @@ html, body, .view {
   }
 
   .spacer {
-    margin-top: 55%;
+    margin-top: 30%;
   }
 
   .xs-spacer{
@@ -318,8 +273,13 @@ html, body, .view {
 
 @media screen and (max-width: 640px) {
   h1.display-4 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
+
+  .h3{
+    font-size: 1.5rem;
+  }
+
   .sm-spacer {
     transform: translateY(10%);
   }
@@ -329,12 +289,12 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 115%;
+    height: 140%;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 80%;
+    height: 105%;
   }
 
   .logo-resize {
@@ -343,12 +303,12 @@ html, body, .view {
   }
 
   .img-resize{
-    height: 264px;
-    width: 225px;
+    height: 230px;
+    width: auto;
   }
 
   .spacer {
-    margin-top: 60%;
+    margin-top: 35%;
   }
 
   .xs-spacer{
@@ -358,11 +318,11 @@ html, body, .view {
 
 @media screen and (max-width: 480px) {
   h1.display-4 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
-  h3 {
-    font-size: 1.2rem;
+  .h3 {
+    font-size: 1.1rem;
 
   }
 
@@ -375,19 +335,20 @@ html, body, .view {
   }
 
   .img-resize{
-    height: 200px;
-    width: 165.5px;
+    height: 175px;
+    width: auto;
     margin-bottom: 30px;
   }
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 113%;
+    height: 140%;
+    margin-bottom: 0px;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 75%;
+    height: 100%;
   }
 
   .logo-resize {
@@ -396,39 +357,43 @@ html, body, .view {
   }
 
   .spacer {
-    margin-top: 75%;
+    margin-top: 50%;
   }
 
   .xs-spacer{
-    margin-top: 0px;
+    padding-top: 20px;
   }
 }
 
 @media screen and (max-width: 375px) {
   h1.display-4 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .sm-spacer {
     transform: translateY(8%);
   }
 
+  p{
+    font-size: 0.9rem
+  }
 
   .img-resize{
-    height: 156.4px;
-    width: 132.4px;
-    margin-bottom: 30px;
-    white-space:nowrap;
+    height: 150px;
+    width: 122.4px;
+    white-space: nowrap;
+    overflow: hidden;
 
   }
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 145%;
+    height: 140%;
+    margin-bottom: 0px;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 80%;
+    height: 85%;
   }
 
   .logo-resize {
@@ -450,8 +415,8 @@ html, body, .view {
   h1.display-4 {
     font-size: 1.6rem;
   }
-  h3{
-    font-size: 1.1rem;
+  .h3{
+    font-size: 1.4rem;
 
   }
   div.spacer {
@@ -476,12 +441,13 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 160%;
+    height: 150%;
+    margin-bottom: 0px;
   }
 
   .gray-bg-bottom{
     background-color: whitesmoke;
-    height: 65%;
+    height: 85%;
   }
 
   .spacer {
