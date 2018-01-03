@@ -81,6 +81,18 @@ html, body, .view {
 }
 
 @media (max-width: 1440px) {
+  .gray-bg-top {
+    background-color: whitesmoke;
+    height: 150%;
+  }
+
+  .gray-bg-bottom{
+    background-color: whitesmoke;
+    height: 120%;
+  }
+}
+
+@media (max-width: 1440px) {
   .spacer {
     position: relative;
     top: 50%;
@@ -168,7 +180,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 140%;
+    height: 145%;
     margin-bottom: 10px;
   }
 
@@ -196,6 +208,10 @@ html, body, .view {
     width: auto;
   }
 
+  .xs-spacer{
+    margin-top: 10px;
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -211,7 +227,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 140%;
+    height: 145%;
   }
 
   .gray-bg-bottom{
