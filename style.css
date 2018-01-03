@@ -80,18 +80,6 @@ html, body, .view {
   width: 254px;
 }
 
-@media (max-width: 1600px) {
-  .gray-bg-top {
-    background-color: whitesmoke;
-    height: 150%;
-  }
-
-  .gray-bg-bottom{
-    background-color: whitesmoke;
-    height: 120%;
-  }
-}
-
 @media (max-width: 1440px) {
   .spacer {
     position: relative;
@@ -227,7 +215,7 @@ html, body, .view {
 
   .gray-bg-top {
     background-color: whitesmoke;
-    height: 145%;
+    height: 150%;
   }
 
   .gray-bg-bottom{
