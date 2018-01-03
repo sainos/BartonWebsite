@@ -80,7 +80,7 @@ html, body, .view {
   width: 254px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
   .gray-bg-top {
     background-color: whitesmoke;
     height: 150%;
